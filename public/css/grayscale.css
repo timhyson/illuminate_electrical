@@ -266,6 +266,7 @@ a {
 .btn-default {
   border: 1px solid #f4d03c;
   color: #f4d03c;
+  font-weight: 800;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
     border: 1px solid #f4d03c;

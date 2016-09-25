@@ -268,7 +268,6 @@ a {
     padding-top: 100px;
 }
 
-
 .download-section:before {
     content: ' ';
     display: block;
@@ -334,6 +333,7 @@ a {
 .btn-default {
     border: 1px solid $primary;
     color: $primary;
+    font-weight: 800;
     background-color: transparent;
     &:hover,
     &:focus {
