@@ -70,7 +70,7 @@ a {
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: white;
+        color: $primary;
         &:focus,
         &:active {
             outline: none;
@@ -147,7 +147,7 @@ a {
         display: table-cell;
         vertical-align: middle;
         .container {
-                margin-top: 150px
+                margin-top: 50px;
             }
         .brand-heading {
             font-size: 40px;
@@ -157,14 +157,17 @@ a {
         }
     }
     h2, p {
-        background: rgba(#0f0a04, 0.5)
+        background: rgba($intro-bkg, 0.35);
+    }
+    ul {
+        background: rgba($intro-bkg, 0.35);
     }
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
         .intro-body {
             .container {
-                // margin-top: 200px
+                margin-top: 100px;
             }
             .brand-heading {
                 font-size: 100px;
@@ -313,8 +316,14 @@ a {
     }
 }
 
-ul.banner-social-buttons {
+ul.stacking {
     margin-top: 0;
+    .btn-lg {
+        min-width: 160px;
+        .no-transform {
+            text-transform: none;
+        }
+    }
     @media(max-width:1199px) {
         margin-top: 15px;
     }

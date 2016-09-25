@@ -63,7 +63,7 @@ a {
   .navbar-custom .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: white; }
+    color: #f4d03c; }
     .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
       outline: none; }
   .navbar-custom .navbar-brand {
@@ -121,17 +121,21 @@ a {
     display: table-cell;
     vertical-align: middle; }
     .intro .intro-body .container {
-      margin-top: 150px; }
+      margin-top: 50px; }
     .intro .intro-body .brand-heading {
       font-size: 40px; }
     .intro .intro-body .intro-text {
       font-size: 18px; }
   .intro h2, .intro p {
-    background: rgba(15, 10, 4, 0.5); }
+    background: rgba(15, 10, 4, 0.35); }
+  .intro ul {
+    background: rgba(15, 10, 4, 0.35); }
   @media (min-width: 768px) {
     .intro {
       height: 100%;
       padding: 0; }
+      .intro .intro-body .container {
+        margin-top: 100px; }
       .intro .intro-body .brand-heading {
         font-size: 100px; }
       .intro .intro-body .intro-text {
@@ -240,17 +244,21 @@ a {
     color: black;
     background-color: #f4d03c; }
 
-ul.banner-social-buttons {
+ul.stacking {
   margin-top: 0; }
+  ul.stacking .btn-lg {
+    min-width: 160px; }
+    ul.stacking .btn-lg .no-transform {
+      text-transform: none; }
   @media (max-width: 1199px) {
-    ul.banner-social-buttons {
+    ul.stacking {
       margin-top: 15px; } }
   @media (max-width: 767px) {
-    ul.banner-social-buttons li {
+    ul.stacking li {
       display: block;
       margin-bottom: 20px;
       padding: 0; }
-      ul.banner-social-buttons li:last-child {
+      ul.stacking li:last-child {
         margin-bottom: 0; } }
 
 footer {
