@@ -81,6 +81,11 @@ a {
         &:focus {
             outline: none;
         }
+        @media (min-width:992px) {
+            br {
+                display: none;
+            }
+        }
     }
     a {
         color: $primary;
